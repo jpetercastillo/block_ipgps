@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="blocks/ipgps/db" VERSION="2022041902" COMMENT="XMLDB file for Moodle blocks/ipgps"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd"
+>
+  <TABLES>
+    <TABLE NAME="block_ipgps" COMMENT="Default comment for block_ipgps, please edit me">
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
+        <FIELD NAME="blockid" TYPE="int" LENGTH="10" NOTNULL="true" DEFAULT="0" SEQUENCE="false" COMMENT="blockid"/>
+        <FIELD NAME="cursoid" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="false" COMMENT="cursoid"/>
+        <FIELD NAME="userid" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="false" COMMENT="userid"/>
+        <FIELD NAME="latitud" TYPE="char" LENGTH="30" NOTNULL="false" SEQUENCE="false" COMMENT="latitud"/>
+        <FIELD NAME="longitud" TYPE="char" LENGTH="30" NOTNULL="false" SEQUENCE="false" COMMENT="longitud"/>
+        <FIELD NAME="ip" TYPE="char" LENGTH="30" NOTNULL="false" SEQUENCE="false" COMMENT="ip"/>
+        <FIELD NAME="visible" TYPE="int" LENGTH="1" NOTNULL="false" SEQUENCE="false" DEFAULT="0" COMMENT="visible"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+      </KEYS>
+    </TABLE>
+  </TABLES>
+</XMLDB>

@@ -1,0 +1,30 @@
+[05-Oct-2022 11:25:21 America/New_York] Default exception handler: Un parámetro necesario (clustering) faltaba Debug: 
+Error code: missingparam
+* line 497 of /lib/setuplib.php: moodle_exception thrown
+* line 595 of /lib/moodlelib.php: call to print_error()
+* line 25 of /blocks/ipgps/view.php: call to required_param()
+
+[05-Oct-2022 11:25:33 America/New_York] Default exception handler: Un parámetro necesario (clustering) faltaba Debug: 
+Error code: missingparam
+* line 497 of /lib/setuplib.php: moodle_exception thrown
+* line 595 of /lib/moodlelib.php: call to print_error()
+* line 25 of /blocks/ipgps/view.php: call to required_param()
+
+[05-Oct-2022 12:56:12 America/New_York] Default exception handler: Un parámetro necesario (clustering) faltaba Debug: 
+Error code: missingparam
+* line 497 of /lib/setuplib.php: moodle_exception thrown
+* line 595 of /lib/moodlelib.php: call to print_error()
+* line 25 of /blocks/ipgps/view.php: call to required_param()
+
+[05-Oct-2022 13:00:57 America/New_York] Default exception handler: Un parámetro necesario (clustering) faltaba Debug: 
+Error code: missingparam
+* line 497 of /lib/setuplib.php: moodle_exception thrown
+* line 595 of /lib/moodlelib.php: call to print_error()
+* line 25 of /blocks/ipgps/view.php: call to required_param()
+
+[07-Oct-2022 11:21:20 America/New_York] Default exception handler: Un parámetro necesario (clustering) faltaba Debug: 
+Error code: missingparam
+* line 497 of /lib/setuplib.php: moodle_exception thrown
+* line 595 of /lib/moodlelib.php: call to print_error()
+* line 25 of /blocks/ipgps/view.php: call to required_param()
+
